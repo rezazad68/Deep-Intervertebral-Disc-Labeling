@@ -17,7 +17,7 @@ This code has been implemented in python language using Pytorch libarary and tes
 1- Download the [Spine Generic Public Database (Multi-Subject)](https://github.com/spine-generic/data-multi-subject#spine-generic-public-database-multi-subject).</br>
 2- Run the `create_dataset.py` to gather the required data from the Spin Generic dataset. </br>
 4- Run `prepare_trainset.py` to creat the training and validation samples. </br>
-**Notice: To avoid the above steps we have provided the processed data [here](https://drive.google.com/file/d/1z_mcIEoT_doyh_Hl53OaYWyplUel_-RT/view?usp=sharing)** you can simply download it and continue with the rest steps. 
+**Notice: To avoid the above steps we have provided the processed data [here](https://drive.google.com/file/d/1z_mcIEoT_doyh_Hl53OaYWyplUel_-RT/view?usp=sharing)** you can simply download it and continue with the rest steps. </br>
 5- Run the `main.py` to train and evaluate the model. Use the following command with the related arguments to perform the required action:</br>
 A- Train and evaluate the model `python src/main.py`. You can use `--att true` to use the attention mechanisim. </br>
 B- Evaluate the model `python src/main.py --evaluate true ` it will load the trained model and evalute it on the validation set. </br>
