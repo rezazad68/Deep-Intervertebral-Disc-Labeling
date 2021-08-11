@@ -28,9 +28,6 @@ D- You can change the number of stacked hourglass by `--stacks ` argument. For m
 
 ## Quick Overview
 ![Diagram of the proposed method](https://github.com/rezazad68/Deep-Intervertebral-Disc-Labeling/blob/main/images/Proposed_method.png)
-![learning convergence](https://github.com/rezazad68/DeepSpine/blob/main/images/Learning%20convergence.gif)
-##### <pre>                                                 Learning convergence for prediction </pre>
-
 
 #### Visualzie the attention channel
 
@@ -38,14 +35,12 @@ To extract and show the attention channel for the related input sample, we regis
 `python src/main.py --evaluate true --attshow true `. </br>
 
 ![Attention visualization](https://github.com/rezazad68/Deep-Intervertebral-Disc-Labeling/blob/main/images/attention_visualization.png)
-##### <pre>                                                Attention mechanisim visualization </pre>
 
 
 #### Sample of detection result on the test set
 Below we illustrated a sample of vertebral disc detection on the test set. 
 
 ![Test sample](https://github.com/rezazad68/Deep-Intervertebral-Disc-Labeling/blob/main/images/Sample_results.png)
-##### <pre>                                               Sample of test results </pre>
 
 ### Model weights
 You can download the learned weights for each modality in the following table. 
