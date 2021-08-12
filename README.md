@@ -1,9 +1,10 @@
+> ⚠️‎‎‎ **A more recent and actively-maintained version of this code is available in [ivadomed](https://ivadomed.org/)**
+
 # [Stacked Hourglass Network with a Multi-level Attention Mechanism: Where to Look for Intervertebral Disc Labeling]()
 
 Automatic labeling of the intervertebral disc is a difficult task, due to the many challenges such as complex background, the similarity between discs and bone area in MRI imaging, blurry image, and variation in an imaging modality. Precisely localizing spinal discs plays an important role in intervertebral disc labeling. Most of the literature work consider the semantic intervertebral disc labeling as a post-processing step, which applies on the top of the disc localization algorithm. Hence, the semantic intervertebral labeling highly depends on the disc localization algorithm and mostly fails when the localization algorithm cannot detect discs or falsely detects a background area as a disc. In this work, we aimed to mitigate this problem by reformulating the semantic intervertebral disc labeling using the pose estimation technique. If this code helps with your research please consider citing the following papers:
 </br>
 > [R. Azad](https://scholar.google.com/citations?hl=en&user=Qb5ildMAAAAJ&view_op=list_works&sortby=pubdate), [xx](), and [xx]() "Stacked Hourglass Network with a Multi-level Attention Mechanism: Where to Look for Intervertebral Disc Labeling", MICCAI Workshop, 2021, download [link]().
-
 
 #### Please consider starring us, if you found it useful. Thanks
 
